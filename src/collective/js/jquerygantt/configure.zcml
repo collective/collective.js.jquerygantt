@@ -19,4 +19,12 @@
        name="collective.js.jquerygantt"
         directory="resources"
      />        
+     
+    <browser:page
+        name="jquery-gannt-example"
+        for="*"
+        template="example.pt"
+        permission="zope2.ManageUsers"
+        class=".example.ExampleGanttView"
+    />     
 </configure>
